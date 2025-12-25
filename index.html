@@ -47,115 +47,12 @@
 
     <section id="experience">
       <h2>My Journey</h2>
-      <ul class="timeline">
-        <li style="--accent-color:#000000"> <!-- #1f64af -->
-          <div class="date">2024</div>
-          <div class="company-header">
-            <img src="./assets/logos/ensign_infosecurity_logo.jpg" alt="Company Logo" class="company-logo">
-            <div class="company-name">Ensign InfoSecurity (Cybersecurity) Pte Ltd</div>
-          </div>
-          <div class="role-header">
-            <div class="title">Full-Stack Software Engineer Intern</div>
-            <div class="duration">Oct 2024 - Present</div>
-          </div>
-          <div class="description">
-            <ul class="description-list">
-              <li>
-                <strong>Front-End Development</strong>: Built responsive, user-friendly interfaces using <strong>Next.js</strong> and <strong>React</strong> with <strong>Tailwind CSS</strong>, enhancing accessibility and user engagement across platforms. 
-              </li>
-              <li>
-                <strong>Back-End Engineering</strong>: Developed RESTful APIs and optimized server-side logic using <strong>Express.js</strong> with <strong>TypeScript</strong>, ensuring efficient and secure data handling and seamless communication with the front end. 
-              </li>
-              <li>
-                <strong>Database Management</strong>: Implemented and maintained <strong>PostgreSQL</strong> databases, optimizing queries for improved performance and reliability in data-intensive applications. 
-              </li>
-              <li>
-                <strong>DevOps & Automation</strong>: Managed <strong>CI/CD</strong> pipelines and automated workflows, integrating security best practices to streamline deployment and enhance overall system security. 
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li style="--accent-color:#28201C"> <!-- #009A66 -->
-          <div class="date">2023</div>
-          <div class="company-header">
-            <img src="./assets/logos/AMD_Logo.svg.png" alt="Company Logo" class="company-logo">
-            <div class="company-name">Advanced Micro Devices, Inc.</div>
-          </div>
-          <div class="role-header">
-            <div class="title">Engineering Intern/Co-op</div>
-            <div class="duration">May 2023 - Dec 2023</div>
-          </div>
-          <div class="description">
-            <ul class="description-list">
-              <li>
-                Contributed to the enhancement and maintenance of a distinctive <strong>Ruby-based implementation</strong> of the <strong>Origen SDK program</strong>, ensuring it conformed to the latest <strong>test program revision</strong>.
-              </li>
-              <li>
-                Developed <strong>Python scripts</strong> for <strong>data processing</strong> and display of <strong>test data</strong> on new product units.
-              </li>
-              <li>
-                Involved in <strong>post-silicon development</strong> of new products and ran <strong>functional tests</strong> with advanced <strong>test platforms</strong>, assisting test engineers in the testing of new product units.
-              </li>
-              <li>
-                Communicated effectively with <strong>team members and supervisors</strong> and collaborated in a <strong>team-oriented environment</strong>.
-              </li>
-          </div>
-        </li>
-        <li style="--accent-color:#000000"> <!-- #e84a3b -->
-          <div class="date">2018</div>
-          <div class="company-header">
-            <img src="./assets/logos/convertium_logo.jpg" alt="Company Logo" class="company-logo">
-            <div class="company-name">Convertium Pte Ltd</div>
-          </div>
-          <div class="role-header">
-            <div class="title">Software Intern</div>
-            <div class="duration">Oct 2018 - Apr 2019</div>
-          </div>
-          <div class="description">
-            <ul class="description-list">
-              <li>
-                Demonstrated proficiency in managing and maintaining <strong>front-end and back-end software</strong>, utilizing <strong>HTML slicing</strong> and <strong>company-in-built software</strong> to guarantee seamless functionality and user experience.
-              </li>
-              <li>
-                Modified current front-end projects using strong <strong>teamwork and communication techniques</strong> to fulfill customer expectations, resulting in successful and timely results.
-              </li>
-              <li>
-                Thoroughly <strong>tested and debugged software</strong>, identifying problems to guarantee <strong>error-free code</strong> and effective program performance.
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
+      <ul class="timeline" id="timeline"></ul>
     </section>
 
     <section id="projects">
       <h2>Personal Projects</h2>
-      <div class="projects-grid">
-        <div class="card">
-          <img src="./assets/banners/insight-banner.png" alt="Insight Banner" class="card-img">
-          <h3>Insight Mobile</h3>
-          <p>
-            Leveraging the power of OpenAI, our solution transforms these notes into interactive quizzes and dynamic flashcards, providing an intelligent and personalized learning experience. 
-          </p>
-          <a href="https://devpost.com/software/insight-zk96j7" class="devpost-link" target="_blank" aria-label="View on Devpost">
-            <img src="./assets/icons/devpost-black.svg" alt="GitHub" class="devpost-icon">
-          </a>
-          <a href="https://github.com/orgs/insight-sg/repositories" class="github-link" target="_blank" aria-label="View on GitHub">
-            <img src="./assets/icons/github-black.svg" alt="GitHub" class="github-icon">
-          </a>
-        </div>
-        <div class="card">
-          <img src="./assets/banners/charlie-banner.png" alt="Charlie Banner" class="card-img">
-          <h3>Citibot - A AI chatbot</h3>
-          <p>
-            Citibot is a chatbot powered by OPENAI’s Language Model, designed to centralize application knowledge and streamline information retrieval for the banking sector, improving efficiency in accessing complex enterprise data.
-          </p>
-          <a href="https://github.com/westies-sg/Citi_Hack_Overflow" class="github-link" target="_blank" aria-label="View on GitHub">
-            <img src="./assets/icons/github-black.svg" alt="GitHub" class="github-icon">
-          </a>
-          </a>
-        </div>
-      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
     </section>
   </main>
 
@@ -174,45 +71,7 @@
     <p>Let's keep in touch - Feel free to reach out anytime!</p>
   </footer>
 
-  <script>
-    function scrollToSection(id) {
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
-
-    function observeSections() {
-      const sections = document.querySelectorAll('section');
-      const dots = document.querySelectorAll('.dot');
-
-      const options = {
-        threshold: 0.5, 
-      };
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          const sectionIndex = [...sections].indexOf(entry.target);
-
-          if (entry.isIntersecting) {
-            dots.forEach(dot => dot.classList.remove('active'));
-            dots[sectionIndex].classList.add('active');
-          }
-        });
-      }, options);
-
-      sections.forEach((section) => observer.observe(section));
-
-      // Click event listeners to the dots
-      dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => {
-          sections[index].scrollIntoView({
-            behavior: 'smooth',  
-            block: 'start',      
-          });
-        });
-      });
-    }
-
-    window.addEventListener('load', observeSections);
-  </script>
+  <script src="./js/render.js" defer></script>
 </body>
 
 </html>

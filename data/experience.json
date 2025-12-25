@@ -1,0 +1,88 @@
+[
+  {
+    "year": "2025",
+    "accentColor": "#00a7e3",
+    "company": "NCS Pte Ltd",
+    "logo": "./assets/logos/ncs_logo.png",
+    "role": "Software Engineer (Nucleus Program)",
+    "duration": "May 2025 - Present",
+    "bullets": [
+      {
+        "text": "Developed full-stack enterprise web application for resource allocation and scheduling, integrating Java Spring Boot back-end services with Angular front-end components."
+      },
+      {
+        "text": "Led the design and implementation of an automated UAT testing framework using Selenium, Python, and pytest, enabling data-driven, reusable test cases."
+      },
+      {
+        "text": "Integrated automated tests into the CI/CD pipeline with Allure reporting, reducing manual effort and improving release reliability."
+      }
+    ]
+  },
+  {
+    "year": "2024-2025",
+    "accentColor": "#175eac",
+    "company": "Ensign InfoSecurity (Cybersecurity) Pte Ltd",
+    "logo": "./assets/logos/ensign_infosecurity_logo.jpg",
+    "role": "Fullstack Engineer [Intern]",
+    "duration": "Oct 2024 - Jan 2025",
+    "bullets": [
+      {
+        "label": "Front-End Development",
+        "text": "Built responsive, user-friendly interfaces using Next.js and React with Tailwind CSS, enhancing accessibility and user engagement across platforms."
+      },
+      {
+        "label": "Back-End Engineering",
+        "text": "Developed RESTful APIs and optimized server-side logic using Express.js with TypeScript, ensuring efficient and secure data handling."
+      },
+      {
+        "label": "Database Management",
+        "text": "Implemented and maintained PostgreSQL databases, optimizing queries for improved performance and reliability."
+      },
+      {
+        "label": "DevOps & Automation",
+        "text": "Managed CI/CD pipelines and automated workflows, integrating security best practices to streamline deployment."
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "accentColor": "#000000",
+    "company": "Advanced Micro Devices, Inc.",
+    "logo": "./assets/logos/amd_logo.png",
+    "role": "Product Development Engineer [Intern]",
+    "duration": "May 2023 - Dec 2023",
+    "bullets": [
+      {
+        "text": "Contributed to the enhancement and maintenance of a Ruby-based implementation of the Origen SDK program, ensuring it conformed to the latest test program revision."
+      },
+      {
+        "text": "Developed Python scripts for data processing and display of test data on new product units."
+      },
+      {
+        "text": "Involved in post-silicon development of new products and ran functional tests with advanced test platforms."
+      },
+      {
+        "text": "Collaborated effectively with team members and supervisors in a team-oriented environment."
+      }
+    ]
+  },
+  {
+    "year": "2018",
+    "accentColor": "#e24134",
+    "logo": "./assets/logos/convertium_logo.jpg",
+    "company": "Convertium Pte Ltd",
+    "role": "Software Developer [Intern]",
+    "duration": "Oct 2018 - Apr 2019",
+    "bullets": [
+      {
+        "text": "Managed and maintained front-end and back-end software, utilizing HTML slicing and company in-built software to ensure seamless functionality and user experience."
+      },
+      {
+        "text": "Modified existing front-end projects using teamwork and communication to fulfill customer expectations and deliver timely results."
+      },
+      {
+        "text": "Tested and debugged software to identify issues and ensure error-free code and stable program performance."
+      }
+    ]
+  }
+]

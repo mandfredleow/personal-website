@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Insight Mobile",
+    "image": "./assets/banners/insight-banner.png",
+    "description": "Leveraging the power of OpenAI, our solution transforms notes into interactive quizzes and dynamic flashcards, providing an intelligent and personalized learning experience.",
+    "links": [
+      { "type": "devpost", "href": "https://devpost.com/software/insight-zk96j7", "icon": "./assets/icons/devpost-black.svg", "aria": "View on Devpost" },
+      { "type": "github", "href": "https://github.com/orgs/insight-sg/repositories", "icon": "./assets/icons/github-black.svg", "aria": "View on GitHub" }
+    ]
+  },
+  {
+    "title": "Citibot - A AI chatbot",
+    "image": "./assets/banners/charlie-banner.png",
+    "description": "Citibot is a chatbot powered by OPENAI’s Language Model, designed to centralize application knowledge and streamline information retrieval for the banking sector.",
+    "links": [
+      { "type": "github", "href": "https://github.com/westies-sg/Citi_Hack_Overflow", "icon": "./assets/icons/github-black.svg", "aria": "View on GitHub" }
+    ]
+  }
+]
