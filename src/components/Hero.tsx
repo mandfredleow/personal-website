@@ -21,12 +21,12 @@ export function Hero() {
         />
       </div>
 
-      <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div className="relative mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex min-h-[100svh] items-center justify-center">
           <div className="relative w-full text-center">
             <div className="mx-auto w-full text-center">
               {/* Name */}
-              <h1 className="relative z-10 w-full font-semibold tracking-tight text-white text-[clamp(72px,12vw,160px)] leading-[0.9]">
+              <h1 className="relative z-10 w-full font-semibold tracking-tight text-white text-[clamp(72px,12vw,160px)] leading-[0.9] uppercase">
                 {PROFILE.name}
               </h1>
 
