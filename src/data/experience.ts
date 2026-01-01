@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     title: "Fullstack Engineer",
     company: "Ensign InfoSecurity (Cybersecurity) Pte Ltd",
     period: "Oct 2024 - Jan 2025",
-    logo: `${import.meta.env.BASE_URL}assets/logos/ensign_infosercurity.jpg`,
+    logo: `${import.meta.env.BASE_URL}assets/logos/ensign_infosecurity_logo.jpg`,
     description:
       "Worked across frontend, backend, and database to ship secure, scalable features for internal and customer-facing systems.",
     achievements: [

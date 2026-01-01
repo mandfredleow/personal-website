@@ -3,7 +3,7 @@ export const PROJECTS = [
     title: "Insight Mobile",
     description:
       "Leveraging the power of OpenAI, our solution transforms notes into interactive quizzes and dynamic flashcards, providing an intelligent and personalized learning experience.",
-    image: `${import.meta.env.BASE_URL}assets/banners/banner.png`,
+    image: `${import.meta.env.BASE_URL}assets/banners/insight-banner.png`,
     tags: ["OpenAI", "Flashcards", "React Native"],
     github: "https://github.com/orgs/insight-sg/repositories",
     demo: "",
