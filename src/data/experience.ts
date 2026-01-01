@@ -3,7 +3,7 @@ export const EXPERIENCES = [
     title: "Software Engineer (Nucleus Program)",
     company: "NCS Pte Ltd",
     period: "May 2025 - Present",
-    logo: "/assets/logos/ncs_logo.png",
+    logo: `${import.meta.env.BASE_URL}assets/logos/ncs_logo.png`,
     description:
       "Led automation initiatives to improve release confidence and reduce manual testing effort.",
     achievements: [
@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     title: "Fullstack Engineer",
     company: "Ensign InfoSecurity (Cybersecurity) Pte Ltd",
     period: "Oct 2024 - Jan 2025",
-    logo: "/assets/logos/ensign_infosecurity_logo.jpg",
+    logo: `${import.meta.env.BASE_URL}assets/logos/ensign_infosercurity.jpg`,
     description:
       "Worked across frontend, backend, and database to ship secure, scalable features for internal and customer-facing systems.",
     achievements: [
@@ -29,7 +29,7 @@ export const EXPERIENCES = [
     title: "Product Development Engineer",
     company: "Advanced Micro Devices, Inc.",
     period: "May 2023 - Dec 2023",
-    logo: "/assets/logos/amd_logo.png",
+    logo: `${import.meta.env.BASE_URL}assets/logos/amd_logo.png`,
     description:
       "Supported post-silicon development efforts through test program updates, scripting, and cross-team collaboration.",
     achievements: [
@@ -42,7 +42,7 @@ export const EXPERIENCES = [
     title: "Software Developer",
     company: "Convertium Pte Ltd",
     period: "Oct 2018 - Apr 2019",
-    logo: "/assets/logos/convertium_logo.jpg",
+    logo: `${import.meta.env.BASE_URL}assets/logos/convertium_logo.jpg`,
     description:
       "Maintained and enhanced web projects by implementing changes, testing, and debugging to support smooth delivery.",
     achievements: [
