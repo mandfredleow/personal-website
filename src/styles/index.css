@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  /* Monochrome / minimal dark */
+  --bg: 11 11 13;          /* #0B0B0D */
+  --bg-muted: 18 18 22;    /* subtle card surface */
+
+  --text: 245 245 245;     /* near-white */
+  --text-muted: 163 163 163; /* muted gray */
+
+  /* “Primary” becomes your main highlight (white) */
+  --primary: 245 245 245;
+  --primary-dark: 210 210 210;
+
+  /* Accent is just another neutral */
+  --accent: 120 120 120;
+}
+
+@theme {
+  --color-primary: rgb(var(--primary));
+  --color-primary-dark: rgb(var(--primary-dark));
+  --color-accent: rgb(var(--accent));
+
+  --color-bg: rgb(var(--bg));
+  --color-bg-muted: rgb(var(--bg-muted));
+
+  --color-text: rgb(var(--text));
+  --color-text-muted: rgb(var(--text-muted));
+}
